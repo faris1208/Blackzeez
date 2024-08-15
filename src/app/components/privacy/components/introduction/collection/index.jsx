@@ -3,7 +3,7 @@ import styles from "../collection/styles.module.scss"
 
 export default function Collection() {
   return (
-    <div className={styles.collection_container}>
+    <div id="collection-section" className={styles.collection_container}>
         <div className={styles.collection_wrapper}>
             <h3>Collection of your Personal Information</h3>
             <p>In order to better provide you with products and services offered on our Site, Eze may collect personally identifiable information, such as your:</p>

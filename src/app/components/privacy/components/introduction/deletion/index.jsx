@@ -3,7 +3,7 @@ import styles from "../deletion/styles.module.scss"
 
 export default function Deletion() {
   return (
-    <div className={styles.deletion_container}>
+    <div id='deletion-section' className={styles.deletion_container}>
         <div className={styles.deletion_wrapper}>
             <h3>Right to Deletion</h3>
             <p>Subject to certain exceptions set out below, on receipt of a verifiable request from you, we will:</p>

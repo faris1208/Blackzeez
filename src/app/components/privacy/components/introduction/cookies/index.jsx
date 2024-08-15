@@ -3,7 +3,7 @@ import styles from "../cookies/styles.module.scss"
 
 export default function Cookies() {
   return (
-    <div className={styles.tracking_container}>
+    <div id='cookies-section' className={styles.tracking_container}>
         <div className={styles.tracking_wrapper}>
             <h3>Use of Cookies</h3>
             <p>The Eze website may use &apos;cookies&apos; to help you personalize your online experience. A cookie is a text file that is placed on your hard disk by a web page server. Cookies cannot be used to run programs or deliver viruses to your computer. Cookies are uniquely assigned to you, and can only be read by a web server in the domain that issued the cookie to you.</p>

@@ -3,7 +3,7 @@ import styles from "../security/styles.module.scss"
 
 export default function Security() {
   return (
-    <div className={styles.security_container}>
+    <div id='security-section' className={styles.security_container}>
         <div className={styles.security_wrapper}>
             <h3>Security of your Personal Information</h3>
             <p>Eze secures your personal information from unauthorized access, use, or disclosure. Eze uses the following methods for this purpose:</p>
