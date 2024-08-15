@@ -3,7 +3,7 @@ import styles from "../firstterm/styles.module.scss"
 
 export default function FirstTerm() {
   return (
-    <div className={styles.first_container}>
+    <div id='terms-use' className={styles.first_container}>
         <div className={styles.first_wrapper}>
             <h3>Terms of Use</h3>
             <p>These terms of use are entered into by and between you and Eze Corp (“Company”, “we”, or “us”). The following terms and conditions (these “Terms of Use”), govern your access to and use of <span><a href="http://">www.ezewholesale.com,</a></span> including any content, functionality, and services offered on or through <span><a href="http://">https://www.ezewholesale.com</a></span> (the “Website”).</p>

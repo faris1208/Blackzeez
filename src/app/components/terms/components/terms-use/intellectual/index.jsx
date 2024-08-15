@@ -3,7 +3,7 @@ import styles from "../intellectual/styles.module.scss"
 
 export default function Intellectual() {
   return (
-    <div className={styles.intellectual_container}>
+    <div id='intellectual-use' className={styles.intellectual_container}>
         <div className={styles.intellectual_wrapper}>
             <h3>Modification of these Terms of Use</h3>
             <p>The Website and its entire contents, features, and functionality (including but not limited to all information, software, text, displays, images, video, and audio, and the design, selection, and arrangement thereof) are owned by the Company, its affiliates, its licensors, or other providers of such material and are protected by United States and international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.</p>

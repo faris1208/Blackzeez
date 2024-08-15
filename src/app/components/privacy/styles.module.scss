@@ -22,5 +22,12 @@
         // position: relative;
         // min-height: 100vh;
         }
+
+        @include responsive("tablet"){
+        display: flex;
+        gap: 40px;
+        width: 100%;
+        padding: 30px 30px 50px;
+        }
     }
 }

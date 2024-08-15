@@ -14,6 +14,17 @@
         // min-height: 100vh;
     }
 
+    @include responsive("tablet"){
+        .terms_wrapper{
+            display: flex;
+            gap: 40px;
+            width: 100%;
+            padding: 30px 30px 50px;
+            // position: relative;
+            // min-height: 100vh;
+        }
+    }
+
     @include responsive("mobile"){
         .terms_wrapper{
             display: flex;

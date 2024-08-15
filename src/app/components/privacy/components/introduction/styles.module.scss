@@ -8,4 +8,8 @@
     @include responsive("mobile"){
         width: 100%;
     }
+
+    @include responsive("tablet"){
+        width: 70%;
+    }
 }

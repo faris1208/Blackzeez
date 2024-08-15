@@ -3,7 +3,7 @@ import styles from "../accessing/styles.module.scss"
 
 export default function Accessing() {
   return (
-    <div className={styles.accessing_container}>
+    <div id='accessing-use' className={styles.accessing_container}>
         <div className={styles.accessing_wrapper}>
             <h3>Accessing the Website and Account Security</h3>
             <p>We reserve the right to withdraw or amend this Website, and any service or material we provide on the Website, in our sole discretion without notice. We will not be liable if for any reason all or any part of the Website is unavailable at any time or for any period.</p>
