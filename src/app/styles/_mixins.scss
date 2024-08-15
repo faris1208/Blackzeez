@@ -1,0 +1,46 @@
+@mixin responsive($breakpoint) {
+  @if $breakpoint == "mobile" {
+    @media (max-width: 767px) {
+      @content;
+    }
+  } @else if $breakpoint == "tablet" {
+    @media (min-width: 768px) and (max-width: 1023px) {
+      @content;
+    }
+  } @else if $breakpoint == "desktop" {
+    @media (min-width: 1024px) {
+      @content;
+    }
+  }
+}
+
+@mixin flex($gap) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $gap;
+}
+@mixin border($color) {
+  border: 1px solid $color;
+}
+@mixin btn-styles {
+  outline: none;
+  padding: 1rem 1.5rem;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: inherit;
+  line-height: 1.25;
+  font-size: 0.875rem; // 14px
+  text-align: center;
+  font-weight: 600; // font-semibold
+  transition: all 0.2s ease-in-out; // assuming you have a primary color variable
+  border-radius: 0.5rem; // rounded-lg
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(0.95);
+  }
+}

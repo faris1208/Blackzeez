@@ -1,0 +1,67 @@
+@import "../../../../../styles/mixins";
+@import "../../../../../styles/variables";
+
+.sharing_container{
+    width: 100%;
+    margin-top: 40px;
+
+    .sharing_wrapper{
+        h3{
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 27.72px;
+            text-align: left;
+            color: #000;
+            margin-bottom: 15px;
+        }
+
+        b{
+            font-family: DM Sans;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24.8px;
+            text-align: left;
+            color: #000;
+        }
+
+        ul{
+            margin-top: 15px;
+            li{
+                font-family: DM Sans;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24.8px;
+                text-align: left;
+                color: #464748;
+                margin-left: 25px;
+            }
+        }
+
+        p{
+            font-family: DM Sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24.8px;
+            text-align: left;
+            color: #464748;
+            margin-top: 15px;
+        }
+
+        .sharing_wrapper_two{
+
+            ul{
+                li{
+                    list-style: none;
+                    font-family: DM Sans;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24.8px;
+                    text-align: left;
+                    color: #464748;
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
+}

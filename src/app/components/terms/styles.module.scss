@@ -1,0 +1,17 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+
+.terms_container{
+    width: 100%;
+
+    .terms_wrapper{
+        display: flex;
+        gap: 50px;
+        width: 100%;
+        // border: 2px solid yellow;
+        padding: 30px 100px 50px;
+        // position: relative;
+        // min-height: 100vh;
+    }
+}
