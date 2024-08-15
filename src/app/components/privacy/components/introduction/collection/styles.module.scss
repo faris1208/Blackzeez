@@ -4,7 +4,6 @@
 
 .collection_container{
     width: 100%;
-    // border: 2px solid blue;
     margin-top: 40px;
 
     .collection_wrapper{
@@ -52,6 +51,61 @@
                     margin-left: 0px;
                 }
             };
+        }
+    }
+}
+
+@include responsive("mobile"){
+    .collection_container{
+        width: 100%;
+        margin-top: 20px;
+    
+        .collection_wrapper{
+    
+            h3{
+                font-family: Poppins;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 27.72px;
+                text-align: left;
+                color: #000;
+            }
+    
+            p{
+                font-family: DM Sans;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20.8px;
+                text-align: left;
+                color: #464748;
+                margin-top: 15px;
+            }
+    
+            ul{
+                width: 100%;
+                margin-top: 15px;
+                li{
+                    font-family: DM Sans;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20.8px;
+                    text-align: left;
+                    color: #464748;
+                    margin-left: 25px;
+                }
+            }
+    
+            .collection_wrapper_two{
+                padding: 10px 0px 0px;
+                
+                ul{
+    
+                    li{
+                        list-style: none;
+                        margin-left: 0px;
+                    }
+                };
+            }
         }
     }
 }

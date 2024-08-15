@@ -37,3 +37,42 @@
         }
     }
 }
+
+@include responsive("mobile"){
+    .first_container{
+
+        .first_wrapper{
+    
+            h3{
+                font-family: Poppins;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 27.72px;
+                text-align: left;
+                color: #000;
+            }
+    
+            p{
+                font-family: DM Sans;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20.8px;
+                text-align: left;
+                color: #464748;
+                margin-top: 15px;
+    
+                span{
+    
+                    a{
+                        font-family: DM Sans;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 20.8px;
+                        text-align: left;
+                        color: #1676F3;
+                    }
+                }
+            }
+        }
+    }
+}

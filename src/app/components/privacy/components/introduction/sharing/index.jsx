@@ -3,7 +3,7 @@ import styles from "../sharing/styles.module.scss"
 
 export default function Sharing() {
   return (
-    <div className={styles.sharing_container}>
+    <div id={styles.section4} className={styles.section}>
         <div className={styles.sharing_wrapper}>
             <h3>Sharing Information with Third Parties</h3>
             <b>Eze does not sell, rent or lease its customer lists to third parties.</b>

@@ -4,5 +4,8 @@
 
 .introduction_container{
     width: 80%;
-    // border: 2px solid red;
+
+    @include responsive("mobile"){
+        width: 100%;
+    }
 }

@@ -17,4 +17,18 @@
         text-align: center;
         color: #fff;
     }
+
+    @include responsive("mobile"){
+        padding: 50px 0px;
+
+        h2{
+            font-family: Poppins;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 55.44px;
+            text-align: center;
+            color: #fff;
+        }
+
+    }
 }

@@ -4,15 +4,24 @@
 
 .terms_container{
     width: 100%;
-    // border: 2px solid red;
 
     .terms_wrapper{
         display: flex;
         gap: 50px;
         width: 100%;
-        // border: 2px solid yellow;
         padding: 30px 100px 50px;
         // position: relative;
         // min-height: 100vh;
+    }
+
+    @include responsive("mobile"){
+        .terms_wrapper{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            padding: 20px 20px 30px;
+        }
+    
     }
 }

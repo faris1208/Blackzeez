@@ -4,4 +4,8 @@
 
 .termsuse_container{
     width: 80%;
+
+    @include responsive("mobile"){
+        width: 100%;
+    }
 }

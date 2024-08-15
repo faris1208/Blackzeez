@@ -13,7 +13,7 @@ export default function Collection() {
                 <li>E-mail Address</li>
                 <li>Phone Number</li>
                 <li>Job Title</li>
-                <li>R2 Certification, Tax EIN, Trade References If you purchase Eze's products and services, we collect billing and credit card information.</li>
+                <li>R2 Certification, Tax EIN, Trade References If you purchase Eze&apos;s products and services, we collect billing and credit card information.</li>
             </ul>
             <p>This information is used to complete the purchase transaction.</p>
             <div className={styles.collection_wrapper_two}>
